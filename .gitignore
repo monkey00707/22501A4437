@@ -1,0 +1,46 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Dependency directories
+bower_components/
+
+# Build output
+/build/
+dist/
+
+# React build artifacts
+*.cache
+*.parcel-cache
+coverage/
+.DS_Store
+
+# Editor/OS files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+Thumbs.db
+.DS_Store
+
+# System files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore next.js/serverless/.vercel/.netlify if ever used
+.next/
+.vercel/
+.netlify/
+
+# Optional: ignore frontend build in mono-repo
+frontend/build/
